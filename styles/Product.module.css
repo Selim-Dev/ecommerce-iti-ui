@@ -1,0 +1,82 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.product img {
+  width: 100%;
+  max-width: 400px;
+  margin-right: 2rem;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-info h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.product-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.product-info p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.product-info .price {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.product-info .rating {
+  margin-bottom: 1rem;
+}
+
+.product-info .rating .stars {
+  display: flex;
+}
+
+.product-info .rating .stars .star {
+  color: #ffc107;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.product-info .rating .count {
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+}
+
+
+
+.button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0070f3;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  background-color: #0f52ba;
+}
